@@ -38,7 +38,7 @@ body {
   /* Sections */
   
   .colored-section {
-    background-color: #FF8303;
+    background-color: #595260 ;
     color: #fff;
     text-align: center; 
   }
@@ -105,16 +105,6 @@ body {
     position: absolute;
     bottom: 50%;
     
-  }
-  /* colour palette */
-  .yellow-bg
-  {
-      height:550px;
-      width:550px;
-      padding:10px;
-      background:#FFB319;
-      position:relative;
-      left:100%;
   }
   
   /* Features Section */
