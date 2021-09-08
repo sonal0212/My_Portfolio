@@ -3,7 +3,11 @@ body {
     font-family: "Montserrat";
     text-align: center;
   }
-  
+  html,body {
+    margin:0;
+    padding:0;
+    overflow-x:hidden;
+    }
   h1, h2, h3, h4, h5, h6 {
     font-family: 'Montserrat', sans-serif;
   }
@@ -34,17 +38,14 @@ body {
   /* Sections */
   
   .colored-section {
-    margin:0%;
     background-color: #FF8303;
     color: #fff;
-    text-align: center;
-    padding: 3%; 
+    text-align: center; 
   }
   
   .white-section {
     background-color: #fff;
     text-align: center;
-    padding: 3%;
   }
   .grey-section {
     background: linear-gradient(110deg, #595260 60%, #161610 60%);
@@ -62,8 +63,6 @@ body {
     font-family: "Ubuntu";
     font-size: 6rem;
     font-weight: bold;
-    position: absolute;
-    left: 0;
   }
   
   .nav-item {
@@ -126,10 +125,9 @@ body {
    padding-left:5% ;
 
  }
- .scholar-icon{
-  width:30% ;
+ .icon{
   text-align: center;
-  margin: 20px;
+  margin: 10px;
   margin-bottom: 1rem;
  }
  .icon:hover {
@@ -170,7 +168,10 @@ body {
     width: 15%;
     margin: 20px 20px 50px;
   }
-  
+   /* Skills*/
+   .skills-img{
+     padding-top:20%;
+   }
   /* Pricing Section */
   
   #know-me {
