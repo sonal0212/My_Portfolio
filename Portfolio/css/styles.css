@@ -142,36 +142,74 @@ body {
     width: 20%;
     margin: 20px;
   }
-  .carousel-item{
-      text-align: center;
-    padding:7% 25%;
-  }
-  
-  
-  #press {
-    background-color: #000000;
-    text-align: center;
-    padding-bottom: 3%;
-  }
-  
-  .press-logo {
-    width: 15%;
-    margin: 20px 20px 50px;
-  }
    /* Skills*/
    .skills-img{
      padding-top:20%;
    }
-  /* Pricing Section */
   
   #know-me {
     padding: 100px;
     text-align: center;
     padding-bottom: 20%;
   }
+   /* contact me Section */
+   #contact-me{
+    text-align: center;
+    background-color:#FFB319 ;
+    margin: 0 0 0 0;
+}
+#contact-me-head{
+    color: #393E46;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    font-size: 3rem;
+}
+#contact-me-head:hover{
+    color: #000000;
+    text-decoration: underline;
+}
+.inter-para{
+   
+    color:   #595260;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+}
+.contact-form{
+    color: #222831;
+    padding-top: 2%;
+    padding-right: 50%;
+}
+.button {
+  border-radius: 3px;
+}
+
+.button:hover {
+  background-color: white;
+  color: black;
+  border: 2px solid #555555;
+}
+.form-label{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+    text-align: center;
+}
+#foams{
+  position:relative;
+  padding:2% 50% 0% 50%;
+}
+.form-control {
+  width: 600px;
+}
+#footer-section{
+    text-align: center;
+    background-color: #FFB319;
+}
   /* CTA Section */
   #cta{
-    background-color: #ff4c68;
+    background-color: #FFB319;
     color: #fff;
     padding:7% 15%;
     text-align: center;
